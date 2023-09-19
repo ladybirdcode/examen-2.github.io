@@ -1,0 +1,217 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&family=Heebo&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-azul: #282932;
+    --color-naranja: #f7b614;
+    --color-titulos: #2a2a2a;
+	--color-blanco: #FFFFFF;
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.first-div{
+    margin-top: 50px;
+}
+
+.first-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#hero{
+	background-image: url("../img/slider-glob.png");
+	background-size: cover;
+	background-color:var(--color-azul)!important;
+	padding-left: 10px;
+	padding-top:120px;
+}
+
+#hero p{
+	color:var(--color-blanco);
+}
+
+#hero h1{
+	color:var(--color-blanco);
+	font-family: heebo;
+	font-weight: 1000;
+	font-size: 60px;
+}
+
+#hero h2{
+	color:var(--color-naranja);
+	font-family: heebo;
+	font-weight: 1000;
+	font-size: 60px;
+}
+
+#hero img{
+	height: 100%;
+	width: 100%;
+	
+}
+
+#hero .btn{
+	font-size: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-radius: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.row{
+	max-width: 100%;
+}
+
+#sit{
+	max-width: 100%;
+	background-color:var(--color-azul);
+}
+
+#subscribe{
+	background-color:var(--color-naranja);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+}
+
+.custom-form input{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	radius-border: 10px;
+}
+
+#popular-goods h4{
+	font-size:15px;
+	text-align: center;
+}
+
+#popular-goods p{
+	text-align: center;
+}
+
+#popular-goods .btn{
+margin-left:75px;
+border-radius: 20px;
+padding-right: 25px;
+padding-left: 25px;
+}
+
+#popular-goods .la-star{
+color:var(--color-naranja);
+
+}
+
+.star{
+	padding-left: 110px;
+}
+
+#sit .btn{
+border-radius: 40px;
+padding-right: 65px;
+padding-left: 65px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+font-size: 20px;
+
+}
+
+#sit p{
+	color:var(--color-blanco);
+}
+
+#sit h3{
+	color:var(--color-blanco);
+	font-size:30px;
+	font-weight: 700;
+	padding-top: 80px;
+}
+
+#sit h2{
+	color:var(--color-naranja);
+	font-size:30px;
+	font-weight: 700;
+}
+
+.home{
+	padding-left: 40px;
+}
+
+#subscribe p{
+color: var(--color-blanco);
+
+}
+
+#subscribe h2{
+	font-weight:700;
+	font
+	
+}
+
+.la-envelope-open-text{
+	font-size: 100px;
+	
+}
+
+.box input{
+	color: transparent;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	width: 350px;
+
+	
+}
+
+.box{
+	background:var(--color-blanco);
+	display: block;
+	cursor: pointer;
+	padding: 10px 20px;
+	width: 400px;
+	border-radius: 50px;
+	align-items: center;
+	
+}
+
+.box .btn{
+	margin-left: 250px;
+	border-radius: 50px;
+}
